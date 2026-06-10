@@ -3,7 +3,7 @@
  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Horario de Clases - Mayo 2026</title>
+  <title>Horario de Clases - Junio 2026</title>
   <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
   <script src="/_sdk/element_sdk.js"></script>
   <style>
@@ -127,7 +127,7 @@
       <!-- Center Content -->
       <div class="text-center">
         <h1 id="page-title" class="text-4xl sm:text-5xl font-bold mb-3" style="background: linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #fbbf24 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Horario de Clases</h1>
-        <p id="page-subtitle" class="text-xl text-white font-medium mb-4">Mayo 2026</p>
+        <p id="page-subtitle" class="text-xl text-white font-medium mb-4">Junio 2026</p>
         
         <!-- Planifica tus sesiones Button - Mobile (After title) -->
         <div class="sm:hidden mb-4">
@@ -292,7 +292,7 @@ let selectedFile = null; // Archivo seleccionado para subir
 
     const defaultConfig = {
       page_title: "Calendario de Clases y Retos",
-      page_subtitle: "Mayo 2026",
+      page_subtitle: "Junio 2026",
       background_color: "#faf5ff",
       card_background: "#ffffff",
       primary_color: "#7c3aed",
@@ -304,34 +304,24 @@ let selectedFile = null; // Archivo seleccionado para subir
 
     const classes = [
       {
-        id: 2,
-        title: "Aurora – Q&A",
-        instructor: "Aurora",
-        start: new Date("2026-05-13T19:00:00-06:00"),
-        end: new Date("2026-05-13T20:00:00-06:00"),
-        isEvent: false,
-        zoomLink: "https://us06web.zoom.us/j/89469421859?pwd=oRbMhMdVKd2amSG9NbqBN2jIl5MLD6.1",
-        coverImage: "https://drive.google.com/thumbnail?id=1SPTTZVPfn798A-A7swKpEjQfrHay_X4u&sz=w1000"
-      },
-      {
-        id: 4,
-        title: "Aurora – Q&A",
-        instructor: "Aurora",
-        start: new Date("2026-05-25T19:00:00-06:00"),
-        end: new Date("2026-05-25T20:00:00-06:00"),
-        isEvent: false,
-        zoomLink: "https://us06web.zoom.us/j/84118549997?pwd=UT4iyrChv7kNHbxPXTzlaz9ZOshYbi.1",
-        coverImage: "https://drive.google.com/thumbnail?id=1SPTTZVPfn798A-A7swKpEjQfrHay_X4u&sz=w1000"
-      },
-      {
-        id: 5,
-        title: "Melissa Arria – Cómo crear carruseles virales",
+        id: 1,
+        title: "Q&A",
         instructor: "Melissa Arria",
-        start: new Date("2026-05-27T19:00:00-06:00"),
-        end: new Date("2026-05-27T20:00:00-06:00"),
+        start: new Date("2026-06-18T19:00:00-06:00"),
+        end: new Date("2026-06-18T20:00:00-06:00"),
         isEvent: false,
-        zoomLink: "https://us06web.zoom.us/j/83637956889?pwd=MKXS5Z8ATshd2chRuA8dWDwag6Nldt.1",
-        coverImage: "https://drive.google.com/thumbnail?id=11i_W8PlTsVJ4IPsy25POTOgCJd_LQUs3&sz=w1000"
+        zoomLink: "https://us06web.zoom.us/j/82288678923?pwd=nj3knIoK6tTmxpaht6lsbx3Ic1b79J.1",
+        coverImage: "https://drive.google.com/thumbnail?id=1_985hQ5kXLIlRQbIJjWZG-bMdwFS2y_B&sz=w1000"
+      },
+      {
+        id: 2,
+        title: "Graduación Boost Academy",
+        instructor: "Dirección: IOS Offices CDMX",
+        start: new Date("2026-06-27T10:00:00-06:00"),
+        end: new Date("2026-06-27T13:00:00-06:00"),
+        isEvent: true,
+        location: "IOS Offices CDMX",
+        coverImage: "https://drive.google.com/thumbnail?id=1qOJXocxsWBmZrswpT2DVb0zPa_FONLmL&sz=w1000"
       }
     ];
 
@@ -341,8 +331,8 @@ let selectedFile = null; // Archivo seleccionado para subir
         id: 101,
         title: "Reto #1",
         description: "¡Participa y comparte tu talento con la comunidad!",
-        start: new Date("2026-05-07T16:00:00-06:00"),
-        end: new Date("2026-05-08T23:59:59-06:00"),
+        start: new Date("2026-06-11T16:00:00-06:00"),
+        end: new Date("2026-06-12T23:59:59-06:00"),
         isChallenge: true,
         emoji: "🎯"
       },
@@ -350,26 +340,8 @@ let selectedFile = null; // Archivo seleccionado para subir
         id: 102,
         title: "Reto #2",
         description: "¡Demuestra tu creatividad y destaca entre los mejores!",
-        start: new Date("2026-05-14T16:00:00-06:00"),
-        end: new Date("2026-05-15T23:59:59-06:00"),
-        isChallenge: true,
-        emoji: "📱"
-      },
-      {
-        id: 103,
-        title: "Reto #3",
-        description: "¡Conecta con otros creators y expande tu red!",
-        start: new Date("2026-05-21T16:00:00-06:00"),
-        end: new Date("2026-05-23T23:59:59-06:00"),
-        isChallenge: true,
-        emoji: "🤝"
-      },
-      {
-        id: 104,
-        title: "Reto #4",
-        description: "¡Comparte tu proceso y inspira a otros creators!",
-        start: new Date("2026-05-28T16:00:00-06:00"),
-        end: new Date("2026-05-30T23:59:59-06:00"),
+        start: new Date("2026-06-25T16:00:00-06:00"),
+        end: new Date("2026-06-26T23:59:59-06:00"),
         isChallenge: true,
         emoji: "✨"
       }
